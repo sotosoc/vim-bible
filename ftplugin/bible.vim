@@ -15,6 +15,7 @@ endif
 :nnoremap n nzt
 :nnoremap ,, }0i# STARTHERE
 :nnoremap q 0r*/\v^[ T*]/<CR>:nohlsearch<CR>
+:nnoremap t 0rT/\v^[ T*]/<CR>:nohlsearch<CR>
 
 :match EndOfBuffer /\v%>49c.*$/
 :2match Error /\v<\d{1,3}\ze([ [:punct:]]|$)/
