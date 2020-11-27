@@ -18,4 +18,4 @@ endif
 :nnoremap t 0rT/\v^[ T*]/<CR>:nohlsearch<CR>
 
 :match EndOfBuffer /\v%>64c.*$/
-:2match Error /\v<\d{1,3}\ze([ [:punct:]]|$)/
+:2match Error /\v\d+/
