@@ -22,9 +22,9 @@ syntax match bibleHashTag /\v#([A-Za-z]+)+/
 highlight link bibleHashTag Define
 
 "-------------------------------------------------------------------------------
-" Comments start with a pound sign in the first column
+" Comments start with a pound sign (possibly after spaces)
 "-------------------------------------------------------------------------------
-syntax match bibleComment /\v^#.*$/ contains=bibleNotes,bibleHashTag
+syntax match bibleComment /\v^ *#.*$/ contains=bibleNotes,bibleHashTag
 highlight link bibleComment Comment
 
 "-------------------------------------------------------------------------------
@@ -46,10 +46,5 @@ highlight link bibleComment Comment
 "  - space
 "  - ^^chapter and ^verse markings
 "-------------------------------------------------------------------------------
-" first column
-syntax match bibleError /\v^[^ #^*T]/
-" second column
-syntax match bibleError /\v^.[^ ^]/
-highlight link bibleError Error
 
 let b:current_syntax = "bible"

@@ -5,9 +5,9 @@ endif
 ":colorscheme bible
 
 :set nonumber
-:set textwidth=63
+:set textwidth=60
 :set iskeyword=@,48-57,192-255,_
-:set colorcolumn=2,3,34,64
+:set colorcolumn=30,+1
 :set scrolloff=0
 :set guifont=inconsolata\ 12
 
@@ -17,5 +17,5 @@ endif
 :nnoremap ,, 0rT/\v^[ T]/<CR>:nohlsearch<CR>
 :nnoremap tt J
 
-:match EndOfBuffer /\v%>64c.*$/
-:2match Error /\v\d+/
+:match EndOfBuffer /\v%>60c.*$/
+":2match Error /\v\d+/
