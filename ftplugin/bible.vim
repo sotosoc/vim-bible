@@ -13,9 +13,7 @@ endif
 
 :nnoremap <Space> }jzt
 :nnoremap n nzt
-:nnoremap q 0r*/\v^[ T*]/<CR>:nohlsearch<CR>
-:nnoremap ,, 0rT/\v^[ T]/<CR>:nohlsearch<CR>
 :nnoremap tt J
 
-:match EndOfBuffer /\v%>60c.*$/
+":match EndOfBuffer /\v%>60c.*$/
 ":2match Error /\v\d+/
