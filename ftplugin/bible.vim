@@ -7,7 +7,7 @@ endif
 :set nonumber
 :set textwidth=60
 :set iskeyword=@,48-57,192-255,_
-:set colorcolumn=30,+1
+":set colorcolumn=30,+1
 :set scrolloff=0
 :set guifont=inconsolata\ 12
 
