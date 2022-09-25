@@ -5,9 +5,9 @@ endif
 ":colorscheme bible
 
 :set nonumber
-:set textwidth=60
+:set textwidth=0
 :set iskeyword=@,48-57,192-255,_
-":set colorcolumn=30,+1
+:set colorcolumn=61
 :set scrolloff=0
 :set guifont=inconsolata\ 12
 
