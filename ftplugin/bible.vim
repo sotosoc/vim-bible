@@ -15,5 +15,8 @@ endif
 :nnoremap n nzt
 :nnoremap tt J
 
+" Purpose: for :PresentingStart mode
+let b:presenting_slide_separator = '\v^# Section:.*$'
+
 ":match EndOfBuffer /\v%>60c.*$/
 ":2match Error /\v\d+/
