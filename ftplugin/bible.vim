@@ -4,7 +4,7 @@ endif
 
 ":colorscheme bible
 
-:set nonumber
+:set number
 :set textwidth=0
 :set iskeyword=@,48-57,192-255,_
 :set colorcolumn=61
