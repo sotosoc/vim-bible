@@ -10,6 +10,7 @@ endif
 :set colorcolumn=61
 :set scrolloff=0
 :set guifont=inconsolata\ 12
+:set commentstring=#\ %s
 
 :nnoremap <Space> }jzt
 :nnoremap n nzt
