@@ -2,7 +2,7 @@ if has("folding")
   setlocal foldmethod=marker
 endif
 
-:set textwidth=60
+:set textwidth=80
 :set iskeyword=@,48-57,192-255,_
 :set colorcolumn=+1
 :set scrolloff=0
